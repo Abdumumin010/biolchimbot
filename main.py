@@ -6,7 +6,7 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 from aiogram.dispatcher.filters import CommandStart
 from aiogram.utils import executor
 import os
-from dotenv import load_dotenv
+API_TOKEN = os.environ["BOT_TOKEN"]
 
 load_dotenv()
 
